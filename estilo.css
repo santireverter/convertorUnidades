@@ -1,0 +1,97 @@
+html{
+    font-size: 10px;
+}
+main{
+    width: 55rem;
+    height: 60rem;
+}
+.main {
+    width: 550px;
+    height: 260px;
+    background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+    text-align: center;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+}
+h1{
+    font-size: 3.5rem;
+}
+h2{
+    font-size: 5rem;
+}
+h3 {
+    width: 346px;
+    height: 25px;
+    margin: 0rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+
+    text-align: center;
+
+    color: rgb(255, 255, 255);
+}
+
+p {
+    width: 51rem;
+    height: 25px;
+    left: 102px;
+    top: 327px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 20px;
+
+    text-align: center;
+
+    color: rgb(255, 255, 255);
+}
+.resultado{
+    background-color: #1F2937;
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+}
+.resultado div {
+    width: 51rem;
+    height: 8rem;
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+}
+label{
+    height: 10rem;
+}
+label input{
+    height: 8rem;
+    width: 35rem;
+    font-size: 7rem;
+    text-align: center;
+    border-radius: 1rem;
+}
+.btn{
+    width: 35rem;
+    height: 8rem;
+    color: antiquewhite;
+    background-color: #585DFE;
+    font-size: 2rem;
+    border-radius: 2rem;
+}
+.btn:hover{
+    color: red;
+    transition: 0.2s;
+}

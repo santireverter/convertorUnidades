@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilo.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div class="main">
+            <h1>Conversor de unidades metricas/imperiares</h1>
+            <label for="">
+                <input type="number" id="valor">
+            </label>
+        </div>
+        <div class="resultado">
+            <div>
+                <h3>Longitud (metros/pies)</h3>
+                <p id="longitud">0 metros = 0.000 pies | 0 pies = 0.000 metros</p>
+            </div>
+            <div>
+                <h3>Volumen (litros/ galones)</h3>
+                <p id="volumen">0 litros = 0.000 galones | 0 galones = 0.000 litros</p>
+            </div>
+            <div>
+                <h3>Masa (kilogramos/libras)</h3>
+                <p id="masa">0 kilos = 0.000 libras | 0 libras = 0.000 kilos</p>
+            </div>
+            <div>
+                <button onclick="convertir()" class="btn">convertir</button>
+            </div>
+        </div>
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>
